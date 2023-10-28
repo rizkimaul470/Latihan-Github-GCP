@@ -1,1 +1,1 @@
-ole.log("from script file");
+console.log("from script file");
