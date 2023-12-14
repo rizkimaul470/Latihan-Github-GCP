@@ -1,18 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		  <meta charset="UTF-8" />
-		    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		      <link rel="stylesheet" href="style.css" />
-		        <title>Browser</title>
-	</head>
-	<body>
-		  <h1>
-			      Write, edit and run HTML, CSS and JavaScript code online.
-			        </h1>
-				  <p>
-				      Our HTML editor updates the webview automatically in real-time as you write code.
-				        </p>
-					  <script src="script.js"></script>
-	</body>
+<html>
+<head>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #f1f1f1;
+            text-align: justify;
+        }
+        .card {
+            width: 800px;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        .profile {
+            text-align: center;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+        }
+        .profile h1, .profile h2, .profile h3 {
+            margin: 0;
+        }
+        .profile h2 {
+            font-size: 15px;
+            color: #E72388;
+        }
+        .profile h3{
+            font-size: 9px; 
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .content div {
+            width: 100%;
+        }
+        .sosmed {
+            text-align: center;
+            word-spacing: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="profile">
+            <img src="Profile.jpg" alt="Profile Picture">
+            <h1>Muhammad Rizki Maulana</h1>
+            <h2>IT&D Power Platform Developer at Reckitt Benckiser</h2>
+            <h3> Pekanbaru || 23 years old || Email : maulanarizki587@gmail.com</h3>
+        </div>
+        <div class="content">
+            <div>
+                <h3>My Summary</h3>
+                <p>As an IT&D Power Platform Developer at Reckitt, I develop digitization and custom solutions for the business needs of the Japan & Korea teams, using Power Platform 365. I have hands-on experience with Power Apps, Power Automate, AI Builder and Dataverse, as well as SQL Database. I am skilled in problem-solving, effective communication, and collaboration, and can convey technical concepts to both technical and non-technical audiences.
+                </p>
+                <p>
+                I am also interest in Web Development and Data Science. I have worked on small projects in these areas, using technologies such as HTML, CSS, PHP, Javascript, React.js, Tailwindcss, and Laravel. I am also familiar with data processing, filtering, and visualization using Python (Google Colab, Jupyter, and PowerBI). I am motivated by learning new skills and applying them to real-world scenarios, and I am always eager to take on new challenges and opportunities.</p>
+            </div>
+        </div>
+        <div>
+            <h3>My Experience</h3>
+            <ul>
+                <li>IT&D Power Platform Developer - Reckitt Benckiser (Jun 2023 - Present)</li>
+                <li>Power Platform Developer - Infimedia Solusi Pratama (Dec 2022 - Apr 2023)</li>
+                <li>Technical Intern - Nestle Indonesia (Aug 2022 - Dec 2022)</li>
+                <li>Fullstack Developer Intenr - Investree (Jul 2022 - Aug 2022)</li>
+                <li>IT Intern - PTPN V Sei Buatan (Sep 2021 - Nov 2021)</li>
+            </ul>
+        </div>
+        <div class="sosmed">
+            <a href="https://www.linkedin.com/in/mhdrizkimaulana/"><img text-align="left" alt="LinkedIn" title="LinkedIn" width="29px" src="logo-linkedin.png" /></a>
+  <a href="https://github.com/rizkimaul470"><img text-align="left" alt="Github" title="Github" width="31px" src="logo-github.png" /></a>
+        </div>
+    </div>
+</body>
 </html>
